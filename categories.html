@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Nasir Elais">
+    <meta name="keywords" content="nasir, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nasir Elais</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    
+   <!-- Search model -->
+	<div class="search-model">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch">+</div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="Search here.....">
+			</form>
+		</div>
+	</div>
+	<!-- Search model end -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="inner-header">
+                <div class="logo">
+                    <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+                <div class="header-right">
+                    <img src="img/icons/search.png" alt="" class="search-trigger">
+                    <img src="img/icons/man.png" alt="">
+                    <a onclick="done()">
+                        <img src="img/icons/bag.png" alt="">
+                        <span id="num"></span>
+                    </a>
+                </div>
+                <nav class="main-menu mobile-menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./categories.html">Shop</a>
+                        </li>
+                        <li><a href="./product-page.html">About</a></li>
+                        <!-- <li><a href="./check-out.html">Blog</a></li> -->
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Info Begin -->
+    <div class="header-info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="header-item">
+                        <img src="img/icons/delivery.png" alt="">
+                        <p>Free shipping on orders within surulere</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left text-lg-center">
+                    <div class="header-item">
+                        <img src="img/icons/voucher.png" alt="">
+                        <p>20% Student Discount</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left text-xl-right">
+                    <div class="header-item">
+                    <img src="img/icons/sales.png" alt="">
+                    <p>30% off on dresses. Use code: 30OFF</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Info End -->
+    <!-- Header End -->
+
+    <!-- Page Add Section Begin -->
+    <section class="page-add">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="page-breadcrumb">
+                        <h2>Shop<span>.</span></h2>
+                        <a href="#">Home</a>
+                        <a class="active" href="#">Shop</a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <img src="img/add.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Add Section End -->
+
+    <!-- Categories Page Section Begin -->
+    <section class="categories-page spad" id="dew">
+        <div class="container">
+            <div class="categories-controls">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="categories-filter">
+                            <div class="cf-left">
+                                <form action="#">
+                                    <select class="sort">
+                                        <option value="">Sort by</option>
+                                        <option value="">Orders</option>
+                                        <option value="">Newest</option>
+                                        <option value="">Price</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="cf-right">
+                                <span>20 Products</span>
+                                <a href="#">2</a>
+                                <a href="#" class="active">4</a>
+                                <a href="#">6</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6" id="item1">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas10.png" alt="">
+                            <div class="p-status">new</div>
+                            <div class="hover-icon">
+                                <a href="img/nas10.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                        <a onclick="addToCart(item1)" class="pos">Add To Cart</a>
+                                 
+
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Black Native</h6>
+                            </a>
+                            <p>#77,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6" id="item2">
+                            <div class="single-product-item">
+                                <figure>
+                                    <img src="img/nas28.png" alt="">
+                                    <div class="p-status sale">sale</div>
+                                    <div class="hover-icons">
+                                        <a onclick="addToCart(item2)" class="pos">Add To Cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-text">
+                                    <a href="#">
+                                        <h6>Native</h6>
+                                    </a>
+                                    <p>#75,500</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6" id="item3">
+                            <div class="single-product-item">
+                                <figure>
+                                    <img src="img/nas17.png" alt="">
+                                    <div class="p-status">new</div>
+                                    <div class="hover-icon">
+                                        <a href="img/nas17.png" class="pop-up"><img
+                                                src="img/icons/zoom-plus.png" alt=""></a>
+                                    </div>
+                                    <div class="hover-icons">
+                                        <a onclick="addToCart(item3)" class="pos">Add To Cart</a>
+                                    </div>
+                                </figure>
+                                <div class="product-text">
+                                    <a href="#">
+                                        <h6>Coperate Wear</h6>
+                                    </a>
+                                    <p>#80,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-product-item">
+                                <figure>
+                                    <img src="img/nas18.png" alt="">
+                                    <div class="p-status sale">sale</div>
+                                    <div class="hover-icons">
+                                        <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                                    </div>
+                                </figure>
+                                <div class="product-text">
+                                    <a href="#">
+                                        <h6>Casual Wear</h6>
+                                    </a>
+                                    <p>#79,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-product-item">
+                                <figure>
+                                    <img src="img/nas19.png" alt="">
+                                    <div class="hover-icon">
+                                        <a href="img/nas19.png" class="pop-up"><img
+                                                src="img/icons/zoom-plus.png" alt=""></a>
+                                    </div>
+                                    <div class="hover-icons">
+                                        <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                                    </div>
+                                </figure>
+                                <div class="product-text">
+                                    <a href="#">
+                                        <h6>Casual Wear</h6>
+                                    </a>
+                                    <p>#86,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas20.png" alt="">
+                            <div class="p-status">new</div>
+                            <div class="hover-icon">
+                                <a href="img/nas20.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>7star Native</h6>
+                            </a>
+                            <p>#120,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas2.png" alt="">
+                            <div class="p-status popular">popular</div>
+                            <div class="hover-icon">
+                                <a href="img/nas2.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Complete Suit</h6>
+                            </a>
+                            <p>#122,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas3.png" alt="">
+                            <div class="p-status popular">popular</div>
+                            <div class="hover-icon">
+                                <a href="img/nas3.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Complete Suit</h6>
+                            </a>
+                            <p>#118,500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas4.png" alt="">
+                            <div class="p-status popular">popular</div>
+                            <div class="hover-icon">
+                                <a href="img/nas4.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Complete Suit</h6>
+                            </a>
+                            <p>#147,000</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas5.png" alt="">
+                            <div class="p-status">new</div>
+                            <div class="hover-icon">
+                                <a href="img/nas5.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Coperate Shoe</h6>
+                            </a>
+                            <p>#50,500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas6.png" alt="">
+                            <div class="p-status popular">popular</div>
+                            <div class="hover-icon">
+                                <a href="img/nas6.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Suit</h6>
+                            </a>
+                            <p>#122,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas7.png" alt="">
+                            <div class="p-status popular">popular</div>
+                            <div class="hover-icon">
+                                <a href="img/nas7.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Suit</h6>
+                            </a>
+                            <p>#130,500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas8.png" alt="">
+                            <div class="p-status popular">popular</div>
+                            <div class="hover-icon">
+                                <a href="img/nas8.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Unique Wear</h6>
+                            </a>
+                            <p>#150,500</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-product-item">
+                                <figure>
+                                    <img src="img/nas9.png" alt="">
+                                    <div class="p-status sale">sale</div>
+                                    <div class="hover-icons">
+                                        <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                                    </div>
+                                </figure>
+                                <div class="product-text">
+                                    <a href="#">
+                                        <h6>T-Shirt</h6>
+                                    </a>
+                                    <p>#20,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-product-item">
+                                <figure>
+                                    <img src="img/nas34.png" alt="">
+                                    <div class="p-status">new</div>
+                                    <div class="hover-icon">
+                                        <a href="img/nas34.png" class="pop-up"><img
+                                                src="img/icons/zoom-plus.png" alt=""></a>
+                                    </div>
+                                    <div class="hover-icons">
+                                        <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                                    </div>
+                                </figure>
+                                <div class="product-text">
+                                    <a href="#">
+                                        <h6>Family Wear</h6>
+                                    </a>
+                                    <p>#120,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-product-item">
+                                <figure>
+                                    <img src="img/nas36.png" alt="">
+                                    <div class="p-status sale">sale</div>
+                                    <div class="hover-icons">
+                                        <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                                    </div>
+                                </figure>
+                                <div class="product-text">
+                                    <a href="#">
+                                        <h6>Native</h6>
+                                    </a>
+                                    <p>#77,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-product-item">
+                                <figure>
+                                    <img src="img/nas15.png" alt="">
+                                    <div class="hover-icon">
+                                        <a href="img/nas15.png" class="pop-up"><img
+                                                src="img/icons/zoom-plus.png" alt=""></a>
+                                    </div>
+                                    <div class="hover-icons">
+                                        <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                                    </div>
+                                </figure>
+                                <div class="product-text">
+                                    <a href="#">
+                                        <h6>Complete Suit</h6>
+                                    </a>
+                                    <p>#126,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <img src="img/nas13.png" alt="">
+                            <div class="p-status">new</div>
+                            <div class="hover-icon">
+                                <a href="img/nas13.png" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="hover-icons">
+                                <a href="http://wa.me/+2349163827788" class="pos">Buy now</a>
+                            </div>
+                        </figure>
+                        <div class="product-text">
+                            <a href="#">
+                                <h6>Suit</h6>
+                            </a>
+                            <p>#122,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- Categories Page Section End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Product Shop Section End -->
+    <section class="checkout-section spad sapa" id="acts">
+        <div class="container" id="rocky">
+            <form action="#" class="checkout-form">
+                <div class="row">
+                    <!-- <div class="col-lg-6">
+                        <div class="checkout-content">
+                            <a href="#" class="content-btn">Click Here To Login</a>
+                        </div>
+                        <h4>Biiling Details</h4>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="fir">First Name<span>*</span></label>
+                                <input type="text" id="fir">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="last">Last Name<span>*</span></label>
+                                <input type="text" id="last">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="cun-name">Company Name</label>
+                                <input type="text" id="cun-name">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="cun">Country<span>*</span></label>
+                                <input type="text" id="cun">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="street">Street Address<span>*</span></label>
+                                <input type="text" id="street" class="street-first">
+                                <input type="text">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="zip">Postcode / ZIP (optional)</label>
+                                <input type="text" id="zip">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="town">Town / City<span>*</span></label>
+                                <input type="text" id="town">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="email">Email Address<span>*</span></label>
+                                <input type="text" id="email">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="phone">Phone<span>*</span></label>
+                                <input type="text" id="phone">
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="create-item">
+                                    <label for="acc-create">
+                                        Create an account?
+                                        <input type="checkbox" id="acc-create">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-12">
+                        <div class="checkout-content">
+                            <input type="text" placeholder="Enter Your Coupon Code">
+                        </div>
+                        <div class="place-order">
+                            <h4>Your Order</h4>
+                            <div class="order-total">
+                                
+                                <div>
+                                    <h2>Cart</h2>
+                                    <div id="title">
+
+                                    </div>
+                                </div>
+                            
+                                <div class="order-btn">
+                                    <span class="site-btn place-btn" onclick="pay()">Place Order</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Partner Logo Section Begin -->
+
+
+
+    <!-- <form class="payment" id="paymentForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email-address" required />
+        </div>
+        <div class="form-group">
+          <label for="amount">Amount</label>
+          <input type="tel" id="amount" required />
+        </div>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" />
+        </div>
+        <div class="form-submit">
+          <button type="submit" onclick="payWithPaystack()"> Pay </button>
+        </div>
+      </form> -->
+
+
+
+
+<div id="asap" class="sapa laop">
+
+    <h2 class="asw">Check-Out</h2>
+    <div class="col-lg-6">
+        <form class="contact-form payment" id="paymentForm">
+            <div class="row">
+                <div class="col-lg-6">
+                    <input type="text" placeholder="First Name" id="first-name" required>
+                </div>
+                <div class="col-lg-6">
+                    <input type="text" placeholder="Last Name" id="last-name" required>
+                </div>
+                <div class="col-lg-12">
+                    <input type="email" placeholder="E-mail" id="email-address" required >
+                    <input type="tel" placeholder="Amount" id="amount" required>
+                </div>
+                <div class="col-lg-12 text-right">
+                    <button type="submit" onclick="payWithPaystack()">Pay</button>
+                </div>
+            </div>
+        </form>
+    </div>
+   
+ </div>
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+      
+      <script src="https://js.paystack.co/v1/inline.js"></script> 
+      <script src="js/payment.js"></script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section spad">
+        <div class="container">
+            <div class="newslatter-form">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form action="#">
+                            <input type="text" placeholder="Your email address">
+                            <button type="submit">Subscribe to our newsletter</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-widget">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>About us</h4>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Community</li>
+                                <li>Jobs</li>
+                                <li>Shipping</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Customer Care</h4>
+                            <ul>
+                                <li>Search</li>
+                                <li>Privacy Policy</li>
+                                <li>2022 Lookbook</li>
+                                <li>Shipping & Delivery</li>
+                                <li>Gallery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li>Free Shipping</li>
+                                <li>Free Returnes</li>
+                                <li>Our Franchising</li>
+                                <li>Terms and conditions</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Information</h4>
+                            <ul>
+                                <li>Payment methods</li>
+                                <li>Times and shipping costs</li>
+                                <li>Product Returns</li>
+                                <li>Shipping methods</li>
+                                <li>Conformity of the products</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-links-warp">
+			<div class="container">
+				<div class="social-links">
+					<a href="#" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
+					<a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+					<a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+					<a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
+					<a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
+					<a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
+				</div>
+			</div>
+
+<div class="container text-center pt-5">
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+            </div>
+
+            
+
+		</div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/addToCart.js"></script>
+</body>
+
+</html>
